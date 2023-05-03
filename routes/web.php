@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\LifeCounterController;
+use App\Http\Controllers\LifecounterController;
 
-Route::get('/life-counter', [LifeCounterController::class, 'index']);
-
-Route::post('/life-counter', [LifeCounterController::class, 'update']);
+Route::get('/', [LifecounterController::class, 'index']);
+Route::post('/update', [LifecounterController::class, 'update']);
