@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Life Counter</title>
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-        <style>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Counter</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <style>
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
 </style>
-    </head>
+</head>
+       
+
     <body>
         <div class="header">
         <h1>Magic: The Gathering</h1>
